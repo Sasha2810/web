@@ -1,0 +1,51 @@
+body {
+    background-color: antiquewhite;
+}
+
+/* .size-up {
+    font-size: 50pt;
+
+} */
+
+/* .grey-cube {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+} */
+
+/* .rotate{ */
+    /* transform- трансформация текста */
+    /* transform: rotate(45deg); */
+/* } */
+/* #red {
+    color:blueviolet
+} */
+
+.img {
+    weight: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(6, 31, 114);
+    border-width: 10px;
+    width: 10%;
+    
+}
+
+.custom-ul {
+    list-style-type: 😉circle;
+    font-size: 10px;
+}
+
+a {
+    color:brown;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
