@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(204, 245, 241);
+}
+
+.img1 {
+    weight: 40px;
+    height: 200px;
+    text-align: center;
+    /* почему-то не работает выравнивание по центру */
+}
+
+.python-text {
+    font-size: 28px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dashed;
+    border-color: rgb(30, 35, 53);
+    border-width: 10px;
+    width: 80%;
+}
+
+.pluces {
+    font-size: 28px;
+}
+

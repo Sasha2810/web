@@ -21,10 +21,16 @@ body {
     color:blueviolet
 } */
 
+.interesting {
+    font-size: 30pt;
+
+}
+
+
 .img {
-    weight: 70px;
-    height: 70px;
-    border-radius: 50px;
+    wight: 170px;
+    height: 170px;
+    border-radius: 150px;
 }
 
 hr {
@@ -38,7 +44,7 @@ hr {
 
 .custom-ul {
     list-style-type: 😉circle;
-    font-size: 10px;
+    font-size: 30pt;
 }
 
 a {
@@ -49,3 +55,29 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.myButton {
+	box-shadow: 0px 1px 1px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:3px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 1px #ffee66;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
