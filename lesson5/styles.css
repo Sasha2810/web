@@ -1,0 +1,123 @@
+body {
+
+}
+
+.fig1 {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 50px;
+    top: 39px;
+    background: #E93B30;
+}
+
+
+.fig2 {
+    position: absolute;
+width: 79px;
+height: 43px;
+left: 98px;
+top: 39px;
+
+background: #E63A3A;
+}
+
+
+.fig3 {
+    
+position: absolute;
+width: 65px;
+height: 19px;
+left: 230px;
+top: 216px;
+
+background: #D9D9D9
+}
+
+.fig4 {
+    position: absolute;
+    width: 586px;
+    height: 76px;
+    left: 403px;
+    top: 221px;
+
+background: #D9D9D9;
+}
+
+.fig5 {
+    
+    position: absolute;
+    width: 401px;
+    height: 40px;
+    left: 414px;
+    top: 302px;
+
+    background: #D9D9D9;
+}
+
+.fig6 {
+    position: absolute;
+    width: 401px;
+    height: 40px;
+    left: 414px;
+    top: 302px;
+    background: #D9D9D9;
+}
+
+.fig7 {
+    position: absolute;
+    width: 242px;
+    height: 25px;
+    left: 409px;
+    top: 407px;
+    background: #04A5FF;
+}
+
+.fig8 {
+    position: absolute;
+    width: 230px;
+    height: 25px;
+    left: 720px;
+    top: 407px;
+    background: #04B4FF;
+}
+
+.fig9 {
+    position: absolute;
+    width: 623px;
+    height: 27px;
+    left: 412px;
+    top: 551px;
+    background: #06FF4C;
+}
+
+
+
+button {
+    background-color: gold;
+    border-radius: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 167px;
+    height: 52px;
+    color:rgb(239, 117, 17);
+    border: 8px darkviolet solid;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
