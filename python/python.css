@@ -1,16 +1,30 @@
 body {
-    background-color: rgb(204, 245, 241);
+    background-image: url("https://bestof.nyc3.digitaloceanspaces.com/devsnap.me/sam/css-background-animation.gif");
+    background-size: cover;
 }
 
-.img1 {
-    weight: 40px;
-    height: 200px;
+header {
+    width: 1000;
+    height: 100;
+    background: rgb(147, 199, 252);
     text-align: center;
-    /* почему-то не работает выравнивание по центру */
+    font-family: "Georgia", serif;
+    display: block;
+    margin-top: 0px;
+    /* Для старых браузеров */
+}
+
+.img {
+    weight: 0px;
+    height: 200px;
+    float: left;
+    margin: 18px 0 4px 0px;
 }
 
 .python-text {
     font-size: 28px;
+    font-weight: 200;
+    background: rgb(219, 233, 247);
 }
 
 hr {
@@ -23,5 +37,70 @@ hr {
 
 .pluces {
     font-size: 28px;
+    font-weight: 400;
+    background: rgb(219, 233, 247);
 }
 
+.myButton {
+    box-shadow: inset 0px 1px 2px 0px #bee2f9;
+    background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+    background-color: #63b8ee;
+    border-radius: 10px;
+    border: 3px solid #3866a3;
+    display: inline-block;
+    cursor: pointer;
+    color: #14396a;
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 11px 31px;
+    text-decoration: none;
+}
+
+#rectangle {
+    font-weight: 400;
+    background: rgb(204, 204, 224);
+}
+
+a.underline {
+    font-size: 2vw;
+    text-decoration: none;
+    font-weight: bold;
+    color: #999bfa;
+    position: relative;
+    transition: color 0.8s, text-shadow 0.8s;
+}
+
+a.underline:after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    background: #2a9d8f;
+    height: 10%;
+    width: 0%;
+    z-index: -1;
+    transition: width 0.8s, opacity 0.8s, box-shadow 0.8s;
+    border-radius: 100px;
+    opacity: 0;
+    box-shadow: 0 0 16px rgba(42, 157, 143, 0)
+}
+
+a.underline:hover {
+    color: #f4a261;
+    text-shadow: 0 0 16px rgba(20, 19, 78, 0.64);
+}
+
+a.underline:hover:after {
+    width: 100%;
+    opacity: 1;
+    box_shadow: 0 0 16px rgba(42, 157, 143, 0.88);
+}
+
+a.underline_a:after {
+    right: 0;
+}
+
+a.underline_a:hover:after {
+    right: auto;
+    left: 0;
+}

@@ -1,0 +1,37 @@
+body {
+    background: url(table.jpg);
+}
+
+.zagolovok {
+    font-weight: 50;
+    background-color: rgb(255, 208, 143);
+    text-align: center;
+}
+
+.vstyplenie {
+    background-color: rgb(254, 227, 207);
+    font-size: 34px;
+}
+
+.button {
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    color: #ffffff !important;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 2px ridge #f3c846;
+    background: #9e220a;
+    background: linear-gradient(to top, #9e220a, #f66d52);
+}
+
+.button:hover {
+    color: #cccccc !important;
+    background: #f66d52;
+    background: linear-gradient(to top, #f66d52, #9e220a);
+}
+
+.interesting {
+    font-weight: 200;
+    background-color: rgb(254, 227, 207);
+    font-size: 26px;
+}
