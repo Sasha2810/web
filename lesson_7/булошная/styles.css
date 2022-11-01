@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("img/main.jpg");
+    background-size: no-repeat;
+    background-size: cover;
+    background-position:center;
+
+}
+
+.text {
+    width: 60vw;
+    margin: auto;
+    padding-top: 30vh;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'MonteCarlo', cursive;
+font-family: 'Montserrat', sans-serif;
+    font-size: 4vw;
+}
+
+hr {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 4vh;
+}
+
+p {
+    text-align: center;
+    /* margin-left: 40ch;
+    margin-right: 40ch; */
+    font-family: 'MonteCarlo', cursive;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 4vh;
+
+}
+
+button {
+    font-family: "Marck Script", cursive;
+    font-size: 3vw;
+    width: 13vw;
+    height: 6vw;
+
+    background-color: transparent;
+    color:white;
+    border: 0.5vh solid white;
+}

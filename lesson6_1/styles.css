@@ -1,0 +1,70 @@
+body {
+    background: url(lesson1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+}
+
+.underline::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    background: #7d0202;
+    height: 10%;
+    width: 0%;
+    z-index: -1;
+    transition: width 0.8s, opacity 0.8s, box-shadow 0.8s;
+    border-radius: 100px;
+    opacity: 0;
+    box-shadow: 0 0 16px rgba(64, 184, 184, 0)
+}
+
+.underline:hover {
+    color: #b6b4ba;
+    text-shadow: 0 0 16px rgba(20, 19, 78, 0.64);
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #0f151a;
+    color: aliceblue;
+}
+
+td {
+    border: 2px solid;
+}
+
+.ul {
+    text-decoration: none;
+    list-style-type: disc;
+    transition: width 0.8s, opacity 0.8s, box-shadow 0.8s;
+    color: black;
+}
+
+.ul:hover {
+    color: #04181e;
+    text-shadow: 0 0 16px rgba(15, 25, 211, 0.64)
+}
+
+.sber {
+    position: relative;
+    color: #00a650;
+    cursor: pointer;
+    line-height: 1;
+    text-decoration: none;
+    transition: width 0.3s ease-out;
+    content: "";
+}
+
+.sber:focus:after {
+    width: 100%

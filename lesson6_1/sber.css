@@ -1,0 +1,13 @@
+body {
+    background: url(sber.jpg);
+}
+
+header {
+    text-align: center;
+}
+
+.zagalovok {
+    font: Impact, fantasy;
+    font-size: 40pt;
+    color: rgb(43, 94, 3);
+}
