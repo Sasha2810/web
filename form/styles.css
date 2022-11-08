@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(90deg, #1F0D8C, #540D8C), url("https://coolsen.ru/wp-content/uploads/2021/10/008-20211031_184953.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: darkorange;
+    padding: 20px 0;
+
+}
+
+form {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    width: 50%;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 25px;
+
+}
+
+label {
+    display: block;
+    margin: 25px 0;
+}
+
+input, textarea {
+    background-color: transparent;
+    padding: 15px;
+    border: 4px solid white;
+    border-radius: 25px;
+    width: 100%;
+
+    /* Для текста */
+    font-size: 20px;
+    color: white;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: 20px;
+
+}
+
+.left-side {
+    text-align: left;
+}
+
+button {
+    border: none;
+    width: 150px;
+    padding: 12px;
+    color:white;
+    background-image: linear-gradient(rgb(251, 167, 251), rgb(171, 171, 252));
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 8px;
+}
