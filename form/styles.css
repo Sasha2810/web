@@ -5,12 +5,14 @@
 }
 
 body {
-    background-image: linear-gradient(90deg, #1F0D8C, #540D8C), url("https://coolsen.ru/wp-content/uploads/2021/10/008-20211031_184953.jpg");
+    background-image: linear-gradient(90deg, #1F0D8C20, #540D8C), url("https://coolsen.ru/wp-content/uploads/2021/10/008-20211031_184953.jpg");
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: darkorange;
+    color: aliceblue;
     padding: 20px 0;
+    font-size: 25px;
 
 }
 
@@ -21,6 +23,7 @@ form {
     width: 50%;
     padding: 50px 100px;
     text-align: center;
+    margin: auto;
 }
 
 h2 {
@@ -59,8 +62,8 @@ button {
     border: none;
     width: 150px;
     padding: 12px;
-    color:white;
-    background-image: linear-gradient(rgb(251, 167, 251), rgb(171, 171, 252));
+    color: white;
+    background-image: linear-gradient(90deg, rgb(251, 167, 251), rgb(171, 171, 252));
     background-color: transparent;
     cursor: pointer;
     border-radius: 8px;
