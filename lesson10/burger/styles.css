@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(160deg, #8c5312, rgb(63, 46, 3));
+    padding: 150px 0;
+}
+
+.artical {
+    width: 60%;
+    margin: auto;
+    background-color: whitesmoke;
+    border: 7px solid aliceblue;
+    padding: 60px 100px;
+    margin-bottom: 100px;
+}
+
+.cosmos {
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.heading {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(60, 29, 1);
+    padding: 20px 0 40px;
+    background-color: azure;
+    position: sticky;
+    top: 0;
+}
+
+.text {
+    height: 150px;
+    overflow: scroll;
+}
+
+.rocket {
+    height: 60px;
+    width: 80px;
+    position: absolute;
+    left: 350px;
+    bottom: 50%;
+    transform: rotate(330deg);
+}
+
+.sheme {
+    padding: 0 100px;
+}
+
+.coffee-sheme {
+    display: inline-block;
+    width: 600px;
+    position: relative;
+
+}
+
+.coffee {
+    width: 100%;
+}
+
+.mark {
+    position: absolute;
+}
+
+.mark1 {
+    top: 220px;
+    left: 190px;
+}
+
+.mark2 {
+    top: 220px;
+    left: 315px;
+}
+
+.mark3 {
+    top: 220px;
+    left: 445px;
+}
+
+.items {
+    float: right;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 50px;
+    color: whitesmoke;
+    margin-right: 100px;
+}
+
+li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+li::before {
+    display: inline-block;
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: -47px;
+}
+
+li:nth-child(1)::before{
+    content: url("img/mark1.svg")
+}
+
+li:nth-child(2)::before{
+    content: url("img/mark2.svg")
+}
+
+li:nth-child(3)::before{
+    content: url("img/mark3.svg")
+}
