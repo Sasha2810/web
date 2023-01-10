@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <!-- header -->
     <header class="header main-header">
@@ -18,7 +20,7 @@
                 <img src="img/logo.png" alt="logo" class="logo">
             </a>
             <nav class="header-nav">
-                <a class="active" href="index.html" >Главная страница</a>
+                <a class="active" href="index.html">Главная страница</a>
                 <a href="games.html">Игры</a>
                 <a href="vacancy.html">Вакансии</a>
                 <a href="index.html#team">Команда</a>
@@ -35,49 +37,125 @@
     </header>
 
     <!-- main -->
-    <main> 
+    <main>
         <section id="team" class="team">
             <div class="container">
                 <h2>Наша команда</h2>
                 <div class="team-members">
-                    <div class="member glass">
+                    <div id="first" onclick="first()" class="member glass">
                         <img src="img/cr7-sipping.gif" alt="">
                         <h3>Криштиано Роналдо</h3>
                         <h4>Начальник (Suiii)</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus similique atque vero accusamus eius illo. Iure nulla impedit voluptatem praesentium.</p>
                     </div>
-                    <div class="member glass">
+
+
+
+                    <div id="second" onclick="second()" class="member glass">
                         <img src="img/splended-humor (1).gif" alt="">
                         <h3>человек в чёрном</h3>
                         <h4>И что, что чёрный??</h4>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum quia voluptatem consectetur tempora sint et itaque ad ut expedita vero distinctio, vitae quos iste placeat.</p>
                     </div>
-                    <div class="member glass">
+                    <div id="third" onclick="third()" class="member glass">
                         <img src="img/fixing-my-suit-mike-mclusky.gif" alt="">
-                        <h3>человек в чёрном</h3>
-                        <h4>И что, что чёрный??</h4>
+                        <h3>Джереми Реннер</h3>
+                        <h4>Не только актёр</h4>
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi deserunt, commodi aperiam praesentium quasi culpa? Mollitia facere veritatis laudantium quae eaque officiis, atque adipisci!</p>
                     </div>
-                    <div class="member glass">
-                    <img src="img/itadoriminaj.gif" alt="">
-                    <h3>Скала</h3>
+                    <div id="thourd" onclick="thourd()" class="member glass">
+                        <img src="img/itadoriminaj.gif" alt="">
+                        <h3>Скала</h3>
                         <h4>проверяет</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eaque facere quo. Sint, veniam? Hic libero, aut natus architecto quisquam error at voluptatum qui perferendis?</p>
+
                     </div>
                 </div>
             </div>
+
+
         </section>
+
+
+        <section id="about-team" class="about-team">
+
+            <p id="close1" ; style="display:none" onclick="first_yelloy(); second_yelloy(); third_yelloy(); thourd_yelloy()">Скрыть блок </p>
+            <div class="main-div">
+                <div id="text1" style="display:none" class="div-ronaldo">
+
+                    <img src="img/ronaldo.webp" alt="ronaldo">
+
+                    <h1 class="h-ronaldo">Криштиану Роналду</h1>
+
+                    <ul class="ul-ronaldo">
+                        <li class="li-ronaldo">Возраст: 37лет</li>
+                        <li class="li-ronaldo">Статус в компании: Начальник компании</li>
+                        <li class="li-ronaldo">Режим работы: Свободный</li>
+                        <li class="li-ronaldo">Интересы: футбол</li>
+                    </ul>
+
+
+                </div>
+
+                <div id="text2" class="div-black_men" style="display: none">
+                    <img src="img/people_.webp" alt="people">
+
+
+                    <h1 class="h-black_men">Человек в чёрном</h1>
+
+                    <ul class="ul-black_men">
+                        <li class="li-black_men">Возраст: 32 года</li>
+                        <li class="li-black_men">Статус в компании: Аналитик</li>
+                        <li class="li-black_men">Режим работы: График</li>
+                        <li class="li-black_men">Интересы: рэгби</li>
+                    </ul>
+                </div>
+
+                <div id="text3" class="div-black_men" style="display: none">
+                    <img src="img/rener.jpeg" alt="Джереми реннер">
+
+                    <h1 class="h-rener">Джереми Ренер</h1>
+
+                    <ul class="ul-black_men">
+                        <li class="li-black_men">Возраст: 32 года</li>
+                        <li class="li-black_men">Статус в компании: программист</li>
+                        <li class="li-black_men">Режим работы: График 5/2</li>
+                        <li class="li-black_men">Интересы: мстители</li>
+                    </ul>
+                </div>
+
+                <div id="text4" class="div-black_men" style="display: none">
+                    <img src="img/scala.webp" alt="people">
+
+                    <h1 class="h-rener">Дуэйн Джонсон</h1>
+
+                    <ul class="ul-black_men">
+                        <li class="li-black_men">Возраст: 50 лет</li>
+                        <li class="li-black_men">Статус в компании: Звезда </li>
+                        <li class="li-black_men">Режим работы: График 5/2</li>
+                        <li class="li-black_men">Интересы: качалка</li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+
 
         <footer class="footer">
             <p class="inc">Sasha, inc.</p>
             <nav class="header-nav">
-                <a href="index.html" >Главная страница</a>
+                <a href="index.html">Главная страница</a>
                 <a class="active" href="games.html">Игры</a>
                 <a href="vacancy.html">Вакансии</a>
                 <a href="index.html#team">Команда</a>
                 <a href="">Новости</a>
             </nav>
-        
+
             <div class="social-media">
                 <a href=""><img src="img/Pintrest.svg" alt=""></a>
                 <a href=""><img src="img/Behance.svg" alt=""></a>
@@ -85,5 +163,9 @@
             </div>
         </footer>
     </main>
+
+    <script src="main.js"></script>
+
 </body>
+
 </html>
