@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header-content {
     padding-top: 2rem;
+    padding: 5% 10%;
 }
 
 h1 {
@@ -44,4 +45,26 @@ h1 {
 
 .features img {
     width: 70px;
+}
+
+/* testing monents */
+
+.carousel-text {
+    padding: 7% 10%;
+}
+
+.testimonials {
+    padding-bottom: 3%;
+    background-color: #75c9ad;
+    color: white;
+    font-size: 25px;
+}
+
+.option {
+    display: flex;
+    justify-content: space-around;
+}
+
+.accordion-button:hover {
+    background-color: #75c9ad;
 }
