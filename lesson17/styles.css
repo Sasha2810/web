@@ -60,11 +60,24 @@ h1 {
     font-size: 25px;
 }
 
-.option {
-    display: flex;
-    justify-content: space-around;
-}
 
 .accordion-button:hover {
     background-color: #75c9ad;
+}
+
+.row{
+   padding: 3% 5%;
+}
+
+.option {
+    padding: 3% 13%;
+}
+
+.fiq {
+    padding: 5% 0;
+    background-color: #75c9ad;
+}
+
+.accord {
+    padding: 0 5%;
 }
