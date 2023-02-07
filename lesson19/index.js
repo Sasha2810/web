@@ -42,7 +42,7 @@ let days = [
 
   
 "use strict";
-
+                  
 let hasFinishedEducation = false; 
 const passFinalTest = true; 
  //Если условие верно то изменить переменную hasFinishedEducation на true
