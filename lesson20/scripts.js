@@ -94,4 +94,4 @@ const name = 'Антон';
 const teacher = [name, 24, "учитель", students]
 console.log(teacher);
 
-// 44
+// 44   
