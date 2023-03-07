@@ -18,6 +18,78 @@ let blue = document.querySelector("#blue");
 
 // let int = document.querySelector(".input").value = "adasd";
 
-function myFunction() {
-    document.querySelector(".input").value = "YJGGJG";
-}
+
+
+// let x = prompt("Ы: ");
+switch(x) {
+    case '1':  // или так if (x === '1') получается switch это замена   
+    
+        console.log(1);
+        break;
+    case '2': // if (x === 'value2')
+        console.log(2);
+        break;
+    default:
+        console.log(3);
+        break;
+  }
+// Переменная x проверяется на строгое равенство первому значению value1, затем второму value2 и так далее.
+// Если соответствие установлено – switch начинает выполняться от соответствующей директивы case и далее, до ближайшего break (или до конца switch).
+
+
+
+// for( let jump=1; jump<=10; jump++ ) {
+//     if (jump == 4) continue;  // пропуск итерации
+//     console.log("Прыг " + jump);
+// }
+
+// for( let jump=1; jump<=10; jump++ ) {
+//     if (jump == 4) break;  // выход из цикла
+//     console.log("Прыг " + jump);
+// }
+
+
+// for( let jump=1; jump<=10; jump++ ) {
+//     console.log("Прыг", jump);
+//     for( let sit=1; sit<=3; sit++ ) {
+//         console.log("Присед", sit);
+//     }
+// }
+
+// for( let jump=1; jump<=10; jump++) {
+//     if (jump ==4) continue;
+//     console.log("Прыг", jump)
+//     for( let sit=1; sit<=3; sit++ ) {
+//         console.log("присед", sit);
+//     }
+// }
+
+
+// for( let jump=1; jump<=10; jump++) {
+//     if (jump == 4) continue;
+//     console.log("Прыг", jump)
+//     for( let sit=1; sit<=3; sit++ ) {
+//         if (jump % 2 == 0) break;
+//         console.log("присед", sit);
+//     }
+// }
+
+// while (true){
+//     console.log("Ы")
+// }
+
+// x = Math.trunc(Math.random() * 6) + 1;
+// console.log(x)
+// console.log(Math.trunc(x))  // округление вниз
+// console.log(Math.ceil(x))  // округление вверх
+// console.log(Math.round(x))  // округление математическое
+// console.log(x.toFixed(2))
+
+// console.log(1.35.toFixed(20))
+// console.log(6.35.toFixed(20))
+
+document.querySelector(".message").innerText = "Другое сообщение"
+// document.querySelector(".message").style.backgroundColor ="blue";
+
+
+document.querySelector(".in1").value = "Принято!"
