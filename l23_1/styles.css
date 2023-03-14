@@ -10,8 +10,9 @@
 }
 
 .nado-words {
-    background-color: #f7e6e6;
+    background-color: #d23838;
     border-radius: 50px;
+    width: 100%;
 }
 
 .main-div {
@@ -28,7 +29,7 @@
     position: absolute;
     width: 160px;
     left: 290px;
-    top: 1      0px;
+    top: 10px;
     rotate: 30deg;
 }
 
@@ -55,7 +56,7 @@
 }
 
 .color_words {
-    color: red;
+    color: rgb(126, 1, 1);
 }
 .hello-span {
     display: flex;
@@ -67,6 +68,7 @@
 }
 
 .h1-chislo {
+    margin-left: 10px;
     font-size: 22px;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -75,12 +77,13 @@
 }
 
 .vvod {
-    padding: 24px 2px 40px 40px;
-}
+    margin: 5px;
+    padding: 18px 2px 40px 40px;
+}   
 
     
 .vvod-button {
-    padding: 10px;
+
     background-color: #E25656;
     padding: 8px 40px;
     font-size: 18px;
@@ -100,7 +103,8 @@
 }
 
 .h1-words {
-    color: #FD3E3E;
+    margin-left: 10px;
+    color: #ffffff;
     margin-top: 30px;
     margin-bottom: 30px;
    margin-right: 30px;
@@ -120,11 +124,13 @@
 .schet1 {
     font-weight: 400;
     padding: 0px 30px;
+    font-size: 25px;
 }
 
 .rekord {
     font-weight: 400;
     padding: 0px 0px 0px 80px;
+    font-size: 25px;
 }
 
 .button_big {
@@ -134,10 +140,56 @@
     font-size: 24px;
     color: #fff;
     background-color: #F03D3D;
-    padding: 44px 18px;
+    padding: 30px 7px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2f6627;
     border-radius: 50%;
     bottom: 0;
     right: 0;
+}
+
+@media (max-width: 1250px) {
+    .img3 {
+        width: 200px;
+    }
+    .img2 {
+        width: 300px;
+        margin: 208px 50px 10px 70px;
+    }
+
+    .button_big {
+        width: 90px;
+        padding: 12px 8px;
+       
+    }
+}
+
+@media (max-width: 1250px) {
+    .main-div {
+        display: flex;
+        flex-direction: column;
+    }
+    .img2 {
+        left: 400px;
+        width: 150px;
+        margin: 58px 0px 10px 70px;
+    }
+    .nado-words {
+        margin: auto;  
+        width: 50%;
+    }
+   
+    .img3 {
+        display: none;
+    }
+}
+
+@media (max-width: 700px)  {
+    .nado-words {
+        margin: auto;  
+        width: 90%;
+    }
+    .hello-h1 {
+        font-size: 34px;
+    }
 }
