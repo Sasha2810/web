@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.alphabet {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: row;
+}
+
+
+
+
+.img {
+    left: 700px;
+}
+
+.bg-img img {
+    width: 320px;
+    height: 190px;
+}
