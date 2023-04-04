@@ -1,0 +1,81 @@
+.modal{
+    width: 40%;
+    height: 30%;
+    background-color: bisque;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    padding: 25px;
+    padding-top: 50px;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0.666);
+    border-radius: 47px;
+    box-shadow: 35px 35px 68px 0px rgba(8, 61, 101, 0.5), inset -7px -7px 16px 0px rgba(11, 78, 129, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+
+p{
+    font-size: 25px;
+}
+
+.hidden{
+    display: none;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.btn {
+    margin: 20px;
+    color: #ffffff;
+    background-color: #121430;
+    font-size: 25px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    animation: glow 8s ease infinite;
+}
+
+.btn:hover:first-child {
+    background: linear-gradient(90deg, rgb(149, 122, 122), rgb(107, 1, 1), rgb(186, 141, 141), rgb(211, 114, 114));
+    background-size: 400%;
+}
+.btn:hover:last-child {
+    background: linear-gradient(90deg, rgb(131, 122, 149), rgb(85, 87, 142), rgb(38, 26, 69), rgb(7, 4, 46));
+    background-size: 400%;
+}
+
+
+@keyframes glow {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 400%;
+    }
+}
+
+.close {
+    position: absolute;
+    background: transparent;
+    border: none;
+    color: #110f3f;
+    font-size: 40px;
+    margin-left: auto;
+    top: 10px;
+    right: 15px;    
+}
+
+.close:hover {
+    background-color: #ff7777;
+    border-radius: 10px;
+    font-size: 45px;
+}

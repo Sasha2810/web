@@ -1,0 +1,12 @@
+.btn-container .active {
+    background-color: #f11b1b;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+/* class.class значит и в этом и в этом */

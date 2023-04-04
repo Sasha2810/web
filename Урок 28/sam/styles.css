@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6c6868;
+    font-family: "Montserrat";
+}
+
+.main-button {
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 246, 237, 0.429);
+    padding: 10px 30px;
+    margin-top: 20px;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 0 50%;
+    transform: translateX(-50%);
+}
+
+.form {
+    padding: 20px 40px;
+    background-color: #fefefe;
+    border-radius: 20px;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+
+.main-img {
+    margin: auto;
+    margin-left: 60px;
+}
+
+.name {
+     margin-left: 60px;
+}
+
+.h1-main {
+    margin: auto;
+    font-size: 24px;
+    color: rgb(17, 3, 80);
+    padding: 10px;
+}
+
+.form-h1 {
+    top: 35px;
+    right: 35px;
+    padding: 8px;
+    font-size: 16px;
+
+}
+
+input {
+    border: none;
+    font-size: 18px;
+    padding: 10px 10px;
+    font: 105px;
+}
+
+.close_buttons {
+    display: block;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.close {
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+}
+
+.save {
+    text-decoration: none;
+    border: none;
+    background-color: #3c9cdc;
+    padding: 10px 18px;
+    color: white;
+    font-size: 14px;
+
+}
+.crest {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 35px;
+    color: #6c6868;
+}
