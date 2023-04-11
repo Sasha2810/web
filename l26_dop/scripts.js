@@ -1,5 +1,5 @@
 let modalbtns = document.querySelector(".btn");
-let window = document.querySelector(".modal");
+let window = document.querySelector(".  ");
 let close = document.querySelector(".close");
 
 
