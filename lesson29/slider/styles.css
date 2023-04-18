@@ -1,0 +1,77 @@
+
+body {
+    background-color: cornsilk;
+}
+
+.slider {
+    position: relative;
+    height: 95vh;
+    width: 100vw;
+    margin: auto;
+}
+
+.slide_container {
+    height: 100%;
+    display: flex;
+    width: 97%;
+    /* justify-content: center;  */
+     /* основная ось по горизонтали */
+    /* align-items: center;   */
+    /* побочная вертикаль  */
+    margin: 0;
+    padding: 0;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.slide {
+    width: 80%;
+    flex: 1 0 100%;
+    padding: 30px;
+
+}
+
+.slide h3 {
+    padding-top: 100px;
+}
+
+.slide p, h3 {
+    width: 90%;
+    text-align: center;
+}
+
+.slide:nth-child(odd) {
+    background-color: #f3e4e4;
+}
+
+
+.slide:nth-child(even) {
+    background-color: #e6f7d4;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    width: 45px;
+    height: 65px;
+    font-size: 30px;
+    background-color: #fff;
+    opacity: 0.5;
+    cursor: pointer;
+    transform: translateY(-50%);
+    border-radius: 0px 40px 40px 0;
+}
+
+.arrow:hover {
+    opacity: 1;
+}
+
+#prev {
+    left: 0;
+}
+
+#next {
+    right: 0;
+}
